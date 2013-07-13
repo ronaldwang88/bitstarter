@@ -7,7 +7,7 @@ var fs = require('fs');
 
 app.get('/', function(request, response) {
 
-  var text = fs.readFileSync('index.html');
+  var text = fs.readFileSync('index2.html');
   var answer = text.toString();
 	
   response.send(answer);
